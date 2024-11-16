@@ -1,0 +1,58 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "a83d16ad1629889550ea7377e2effcee",
+    "packages": [
+        {
+            "name": "t045t/php-api",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DevT045T/php-api.git",
+                "reference": "b2c21179b18d1176156776a5a27c3c39d23570e0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DevT045T/php-api/zipball/b2c21179b18d1176156776a5a27c3c39d23570e0",
+                "reference": "b2c21179b18d1176156776a5a27c3c39d23570e0",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "devt045t\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "DevT045T",
+                    "email": "info@t045t.dev"
+                }
+            ],
+            "description": "A lightweight and extendable PHP-Api framework for building RESTful APIs",
+            "support": {
+                "source": "https://github.com/DevT045T/php-api/tree/develop",
+                "issues": "https://github.com/DevT045T/php-api/issues"
+            },
+            "time": "2024-11-15T20:16:13+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "t045t/php-api": 20
+    },
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}

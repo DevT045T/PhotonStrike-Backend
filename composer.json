@@ -1,0 +1,25 @@
+{
+    "name": "dev/photon-strike-backend",
+    "autoload": {
+        "psr-4": {
+            "Dev\\PhotonStrikeBackend\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "DevT045T",
+            "email": "info@t045t.dev"
+        }
+    ],
+    "require": {
+        "t045t/php-api": "dev-develop"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/DevT045T/php-api.git"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
